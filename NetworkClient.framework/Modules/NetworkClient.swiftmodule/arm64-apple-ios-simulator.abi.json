@@ -1,0 +1,469 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "NetworkClient",
+    "printedName": "NetworkClient",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetworkClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "APIServiceFactory",
+        "printedName": "APIServiceFactory",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "create",
+            "printedName": "create(apiKey:baseURL:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "APIServiceProtocol",
+                "printedName": "any NetworkClient.APIServiceProtocol",
+                "usr": "s:13NetworkClient18APIServiceProtocolP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13NetworkClient17APIServiceFactoryC6create6apiKey7baseURLAA0C8Protocol_pSS_SStFZ",
+            "mangledName": "$s13NetworkClient17APIServiceFactoryC6create6apiKey7baseURLAA0C8Protocol_pSS_SStFZ",
+            "moduleName": "NetworkClient",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "APIServiceFactory",
+                "printedName": "NetworkClient.APIServiceFactory",
+                "usr": "s:13NetworkClient17APIServiceFactoryC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13NetworkClient17APIServiceFactoryCACycfc",
+            "mangledName": "$s13NetworkClient17APIServiceFactoryCACycfc",
+            "moduleName": "NetworkClient",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13NetworkClient17APIServiceFactoryC",
+        "mangledName": "$s13NetworkClient17APIServiceFactoryC",
+        "moduleName": "NetworkClient",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetworkClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftyJSON",
+        "printedName": "SwiftyJSON",
+        "declKind": "Import",
+        "moduleName": "NetworkClient"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "APIServiceProtocol",
+        "printedName": "APIServiceProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "fetchTVShowDetails",
+            "printedName": "fetchTVShowDetails(showId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "JSON",
+                "printedName": "SwiftyJSON.JSON",
+                "usr": "s:10SwiftyJSON0B0V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13NetworkClient18APIServiceProtocolP18fetchTVShowDetails6showId10SwiftyJSON0K0VSi_tYaKF",
+            "mangledName": "$s13NetworkClient18APIServiceProtocolP18fetchTVShowDetails6showId10SwiftyJSON0K0VSi_tYaKF",
+            "moduleName": "NetworkClient",
+            "genericSig": "<τ_0_0 where τ_0_0 : NetworkClient.APIServiceProtocol>",
+            "sugared_genericSig": "<Self where Self : NetworkClient.APIServiceProtocol>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchTVShowsList",
+            "printedName": "fetchTVShowsList()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "JSON",
+                "printedName": "SwiftyJSON.JSON",
+                "usr": "s:10SwiftyJSON0B0V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13NetworkClient18APIServiceProtocolP16fetchTVShowsList10SwiftyJSON0I0VyYaKF",
+            "mangledName": "$s13NetworkClient18APIServiceProtocolP16fetchTVShowsList10SwiftyJSON0I0VyYaKF",
+            "moduleName": "NetworkClient",
+            "genericSig": "<τ_0_0 where τ_0_0 : NetworkClient.APIServiceProtocol>",
+            "sugared_genericSig": "<Self where Self : NetworkClient.APIServiceProtocol>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchSeasonDetails",
+            "printedName": "fetchSeasonDetails(showId:seasonNumber:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "JSON",
+                "printedName": "SwiftyJSON.JSON",
+                "usr": "s:10SwiftyJSON0B0V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13NetworkClient18APIServiceProtocolP18fetchSeasonDetails6showId12seasonNumber10SwiftyJSON0M0VSi_SitYaKF",
+            "mangledName": "$s13NetworkClient18APIServiceProtocolP18fetchSeasonDetails6showId12seasonNumber10SwiftyJSON0M0VSi_SitYaKF",
+            "moduleName": "NetworkClient",
+            "genericSig": "<τ_0_0 where τ_0_0 : NetworkClient.APIServiceProtocol>",
+            "sugared_genericSig": "<Self where Self : NetworkClient.APIServiceProtocol>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:13NetworkClient18APIServiceProtocolP",
+        "mangledName": "$s13NetworkClient18APIServiceProtocolP",
+        "moduleName": "NetworkClient",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetworkClient",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "NetworkClient",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftyJSON",
+        "printedName": "SwiftyJSON",
+        "declKind": "Import",
+        "moduleName": "NetworkClient"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "APIServiceImpl",
+        "printedName": "APIServiceImpl",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "apiKey",
+            "printedName": "apiKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13NetworkClient14APIServiceImplC6apiKey33_0C8614FE39E149FAA5E89C8078CF0661LLSSvp",
+            "mangledName": "$s13NetworkClient14APIServiceImplC6apiKey33_0C8614FE39E149FAA5E89C8078CF0661LLSSvp",
+            "moduleName": "NetworkClient",
+            "isInternal": true,
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "baseURL",
+            "printedName": "baseURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13NetworkClient14APIServiceImplC7baseURL33_0C8614FE39E149FAA5E89C8078CF0661LLSSvp",
+            "mangledName": "$s13NetworkClient14APIServiceImplC7baseURL33_0C8614FE39E149FAA5E89C8078CF0661LLSSvp",
+            "moduleName": "NetworkClient",
+            "isInternal": true,
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(apiKey:baseURL:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "APIServiceImpl",
+                "printedName": "NetworkClient.APIServiceImpl",
+                "usr": "s:13NetworkClient14APIServiceImplC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13NetworkClient14APIServiceImplC6apiKey7baseURLACSS_SStcfc",
+            "mangledName": "$s13NetworkClient14APIServiceImplC6apiKey7baseURLACSS_SStcfc",
+            "moduleName": "NetworkClient",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchTVShowDetails",
+            "printedName": "fetchTVShowDetails(showId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "JSON",
+                "printedName": "SwiftyJSON.JSON",
+                "usr": "s:10SwiftyJSON0B0V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13NetworkClient14APIServiceImplC18fetchTVShowDetails6showId10SwiftyJSON0K0VSi_tYaKF",
+            "mangledName": "$s13NetworkClient14APIServiceImplC18fetchTVShowDetails6showId10SwiftyJSON0K0VSi_tYaKF",
+            "moduleName": "NetworkClient",
+            "isOpen": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchTVShowsList",
+            "printedName": "fetchTVShowsList()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "JSON",
+                "printedName": "SwiftyJSON.JSON",
+                "usr": "s:10SwiftyJSON0B0V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13NetworkClient14APIServiceImplC16fetchTVShowsList10SwiftyJSON0I0VyYaKF",
+            "mangledName": "$s13NetworkClient14APIServiceImplC16fetchTVShowsList10SwiftyJSON0I0VyYaKF",
+            "moduleName": "NetworkClient",
+            "isOpen": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchSeasonDetails",
+            "printedName": "fetchSeasonDetails(showId:seasonNumber:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "JSON",
+                "printedName": "SwiftyJSON.JSON",
+                "usr": "s:10SwiftyJSON0B0V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13NetworkClient14APIServiceImplC18fetchSeasonDetails6showId12seasonNumber10SwiftyJSON0M0VSi_SitYaKF",
+            "mangledName": "$s13NetworkClient14APIServiceImplC18fetchSeasonDetails6showId12seasonNumber10SwiftyJSON0M0VSi_SitYaKF",
+            "moduleName": "NetworkClient",
+            "isOpen": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13NetworkClient14APIServiceImplC",
+        "mangledName": "$s13NetworkClient14APIServiceImplC",
+        "moduleName": "NetworkClient",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "APIServiceProtocol",
+            "printedName": "APIServiceProtocol",
+            "usr": "s:13NetworkClient18APIServiceProtocolP",
+            "mangledName": "$s13NetworkClient18APIServiceProtocolP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
