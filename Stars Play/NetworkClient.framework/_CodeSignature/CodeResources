@@ -10,11 +10,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		tcFkwomMvxNrGLbS1arRS2hGqA4=
+		yMQtp9B8BxozFQkhL3c38oF17sU=
 		</data>
 		<key>Modules/NetworkClient.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		DQcCwvr31aLBHCfgIYQ0dWMpft4=
+		8MBHoCOUHl64ZN/mfSxzD7oyhzk=
 		</data>
 		<key>Modules/NetworkClient.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -22,19 +22,19 @@
 		</data>
 		<key>Modules/NetworkClient.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		3YrTbwZ4g7h7vNkzhVBJHzJsWZY=
+		TS3NhtWPyvdTAkqHAa4/5qu+Qks=
 		</data>
 		<key>Modules/NetworkClient.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		I73SwY7fTYYH7BDRgDQ4/zCh5Lw=
+		Q+7v86aSWSL+kiRqyvYULwF8vaw=
 		</data>
 		<key>Modules/NetworkClient.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		3YrTbwZ4g7h7vNkzhVBJHzJsWZY=
+		TS3NhtWPyvdTAkqHAa4/5qu+Qks=
 		</data>
 		<key>Modules/NetworkClient.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		R8Ob1oT5KNFjj9hlOML8qDbGrHo=
+		ogUWYmo8wrPXaqsnM8ye9LlGDGo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -54,7 +54,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EDkzlKibgdyh4bn/4k6Gas7pWlRqD+N1jrWn09oMl14=
+			YfxE1rpN+lyQHsy8ouJrunKNr0AICZ791O2kW7XOmkY=
 			</data>
 		</dict>
 		<key>Modules/NetworkClient.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -68,28 +68,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			id68+hgU3MntYSf0vN1nY0x7LztyGVd8HRSTtHLovk4=
+			AbbPuwgsB1wWZ7YWschHHy2oC3/jambkhtAM5kUKQ1Q=
 			</data>
 		</dict>
 		<key>Modules/NetworkClient.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lKLuSiumcjxJzyLQ29ALjuCfKn81i9HSpr+/tg2lZlY=
+			b16phc3vSg7VEGqCrDWxowF4xsgGRrFlnP72g1YnCO8=
 			</data>
 		</dict>
 		<key>Modules/NetworkClient.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			id68+hgU3MntYSf0vN1nY0x7LztyGVd8HRSTtHLovk4=
+			AbbPuwgsB1wWZ7YWschHHy2oC3/jambkhtAM5kUKQ1Q=
 			</data>
 		</dict>
 		<key>Modules/NetworkClient.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FcNwRR/O9CK121qPBzHG95yDmI2gKpBrZJVgCpWZxqs=
+			QoUOAiHz3tCZBpzOpGe+48QmdY10bRiZTiRKAM8aYYI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

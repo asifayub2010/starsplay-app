@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		E027C7D02D61A1EE00ACBECF /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = E027C7CF2D61A1EE00ACBECF /* CachedAsyncImage */; };
-		E0856BAE2D62E4F500DFDB61 /* NetworkClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0856BAD2D62E4F500DFDB61 /* NetworkClient.framework */; };
-		E0856BAF2D62E4F500DFDB61 /* NetworkClient.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E0856BAD2D62E4F500DFDB61 /* NetworkClient.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E0856BB32D62E79C00DFDB61 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = E0856BB22D62E79C00DFDB61 /* SwiftyJSON */; };
+		E0856BFF2D62F46400DFDB61 /* NetworkClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0856BFE2D62F46400DFDB61 /* NetworkClient.framework */; };
+		E0856C002D62F46400DFDB61 /* NetworkClient.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E0856BFE2D62F46400DFDB61 /* NetworkClient.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +31,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		E0856BB02D62E4F500DFDB61 /* Embed Frameworks */ = {
+		E0856C012D62F46400DFDB61 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				E0856BAF2D62E4F500DFDB61 /* NetworkClient.framework in Embed Frameworks */,
+				E0856C002D62F46400DFDB61 /* NetworkClient.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,7 +48,7 @@
 		E027C79B2D619C2600ACBECF /* Stars Play.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stars Play.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E027C7AB2D619C2900ACBECF /* Stars PlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stars PlayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E027C7B52D619C2900ACBECF /* Stars PlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stars PlayUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0856BAD2D62E4F500DFDB61 /* NetworkClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NetworkClient.framework; sourceTree = "<group>"; };
+		E0856BFE2D62F46400DFDB61 /* NetworkClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NetworkClient.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -70,8 +70,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0856BB32D62E79C00DFDB61 /* SwiftyJSON in Frameworks */,
-				E0856BAE2D62E4F500DFDB61 /* NetworkClient.framework in Frameworks */,
 				E027C7D02D61A1EE00ACBECF /* CachedAsyncImage in Frameworks */,
+				E0856BFF2D62F46400DFDB61 /* NetworkClient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,7 +115,7 @@
 		E0856B992D62DDDC00DFDB61 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E0856BAD2D62E4F500DFDB61 /* NetworkClient.framework */,
+				E0856BFE2D62F46400DFDB61 /* NetworkClient.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -130,7 +130,7 @@
 				E027C7972D619C2600ACBECF /* Sources */,
 				E027C7982D619C2600ACBECF /* Frameworks */,
 				E027C7992D619C2600ACBECF /* Resources */,
-				E0856BB02D62E4F500DFDB61 /* Embed Frameworks */,
+				E0856C012D62F46400DFDB61 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -439,6 +439,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -475,6 +476,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
